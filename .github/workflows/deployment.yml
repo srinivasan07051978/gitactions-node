@@ -1,6 +1,6 @@
 # The workflow file is used to deploy the project to a server
 name: Deploy Project
-on: [push, workflow_dispatch]
+on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
